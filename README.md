@@ -3,9 +3,12 @@
  mindmap
   root((Good to know))
    (DDD)
-    (Strategic)
-    (Tactical
-<br>* Within a BC)
+    (Strategic<br>high–level)
+     (Domain Storytelling)
+     (Event Storming)
+     (Context Mapping)
+     (Bounded Context)
+    (Tactical<br>Within a BC)
    (Data Mesh)
    (Kafka)
    (Quarkus)
