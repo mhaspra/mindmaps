@@ -8,7 +8,7 @@
      (Event Storming)
      (Context Mapping)
      (Bounded Context)
-    (Tactical<br>Within a BC)
+    (Tactical<br>within a BC)
      (Value Object)
      (Entity)
      (Aggregate)
