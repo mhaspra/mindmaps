@@ -17,6 +17,8 @@
      (Factory)
      (Repository)
      (Module)
+     (Application Service)
+      only coordination, no domain logic
    (Data Mesh)
    (Kafka)
    (Quarkus)
