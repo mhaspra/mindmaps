@@ -23,7 +23,10 @@
      (Repository)
      (Module)
      (Application Service)
-      [only coordination, no domain logic]
+      [Only coordination, no domain logic]
+      [Control Security & Transactions]
+      (Domain Objects vs. DTOs vs. Primitive Types)
+       [Coupling vs. Typesafety/Validations/Memory Overhead]
    (Data Mesh)
    (Kafka)
    (Quarkus)
