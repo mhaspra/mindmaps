@@ -38,6 +38,18 @@
       (Domain Objects vs. DTOs vs. Primitive Types)
        [Coupling vs. Typesafety/Validations/Memory Overhead]
    (Data Mesh)
+    (Common Objections)
+     (Producers Cannot Model Data for Everyone’s Use Cases)
+      [True, but that misses the point. Producers just model tight, modular data building block others can couple on]
+     (Making Multiple Copies of Data Is Bad)
+      (There should only be a single master copy of the data)
+       [One single copy can never support all use cases. Not conceptually and not for performance reasons]
+      (It’s too expensive to create, store, and update multiple copies)
+       [Developer Performance is way more expensive)
+      (Managing information security policies across systems and distributed data sets is too hard)
+       [Not with a platform that enforces policies & encryption]
+     (Eventual Consistency Is Too Difficult to Manage)
+      [Within one service it is not and most business process don't need more than that)
    (Kafka)
    (Quarkus)
    (OpenShift)
