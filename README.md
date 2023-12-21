@@ -4,8 +4,8 @@
   root((Good to know))
    (DDD)
     (Strategic)
-    ("ˋTactical
-* Within a BCˋ")
+    (Tactical
+<br>* Within a BC)
    (Data Mesh)
    (Kafka)
    (Quarkus)
