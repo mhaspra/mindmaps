@@ -32,7 +32,7 @@
      (Factory)
      (Repository)
      (Module)
-     (Application Service)
+     (Application Services)
       [Only coordination, no domain logic]
       [Control Security & Transactions]
       (Domain Objects vs. DTOs vs. Primitive Types)
