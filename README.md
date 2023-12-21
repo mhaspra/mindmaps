@@ -13,10 +13,11 @@
      (Entity)
      (Aggregate)
      (Domain Service<br>sometimes, it just isn't a thing)
-      [a stateless operation that fulfills a domain-specific task]
+      [A stateless operation that fulfills a domain-specific task]
       [Perform a significant business process]
       [Transform a domain object from one composition to another]
       [Calculate a Value requiring input from more than one domain object]
+      [Beware of the anemic domain model]
      (Domain Event)
      (Factory)
      (Repository)
