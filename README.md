@@ -12,13 +12,23 @@
      (Value Object)
      (Entity)
      (Aggregate)
-     (Domain Service<br>sometimes, it just isn't a thing)
+     (Domain Services<br>sometimes, it just isn't a thing)
       [A stateless operation that fulfills a domain-specific task]
       [Perform a significant business process]
       [Transform a domain object from one composition to another]
       [Calculate a Value requiring input from more than one domain object]
       [Beware of the anemic domain model]
-     (Domain Event)
+     (Domain Events<br>something that happened in the domain)
+      [Something happened that domain experts care about]
+      [Full-fledged part of the domain model]
+      (Eventually Consistent by Design)
+       [Loose Coupling]
+       [Highly Scalable]
+       [Highly Performant]
+      [Don't query back, enrich]
+      [User Actions as Aggregate]
+      [Asynchronous if it needs to modify another Aggregate]
+      [Published by an Event Store]
      (Factory)
      (Repository)
      (Module)
