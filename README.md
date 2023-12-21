@@ -3,6 +3,9 @@
  mindmap
   root((Good to know))
    (DDD)
+    (Strategic)
+    ("ˋTactical
+* Within a BCˋ")
    (Data Mesh)
    (Kafka)
    (Quarkus)
