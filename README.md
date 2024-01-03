@@ -68,5 +68,25 @@
       [Cheap & disposable -> Support ongoing UI needs]
       [Can be eventually consistent or not]
     (Event Driven)
+    (Component cohesion)
+     [Which class belongs to which component?]
+     (Reuse/Release equivalence principle)
+      [Reuse needs a release and number for testing, change tracking...]
+      [Releasing together should make sense to maintainers and users]
+     (Common closure principle)
+      [Group what changes for same reason at same time]
+      [SRP for components]
+      [Minimizes releasing/testing/deployment]
+     (Common Reuse Principle)
+      [Don't force users to depend on things they don't need]
+      [When we change, users need to change too]
+      [ISP for components]
+     (Tension)
+      [REP: Group for reuse]
+      [CCP: Group for maintenance]
+      [CRP: Split to avoid unneeded releases of users]
+      [Too much REP & CCP –> too many clients impacted by change]
+      [Too much REP & CRP –> too many compnents for one change]
+      [Start with focus on CCP]
    (DevOps)
 ```
