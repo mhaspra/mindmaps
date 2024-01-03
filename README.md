@@ -58,6 +58,15 @@
    (Architecture)
     (Hexagonal Architecture)
     (CQRS)
+     [For sophisticated views with several aggregates]
+     (Command/Write Model)
+      [Independent commands to modify aggregates]
+      [Publish domain events to update query model]
+     (Query/Read Model)
+      [Store optimized for reading]
+      [Model optimized for reading, denormalized]
+      [Cheap & disposable -> Support ongoing UI needs]
+      [Can be eventually consistent or not]
     (Event Driven)
    (DevOps)
 ```
