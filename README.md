@@ -74,10 +74,10 @@
      [Ensure buildability & maintainability]
      (Component cohesion)
       [Which class belongs to which component?]
-      (Reuse/Release equivalence principle)
+      (Reuse/Release Equivalence Principle)
        [Reuse needs a release and number for testing, change tracking...]
        [Releasing together should make sense to maintainers and users]
-      (Common closure principle)
+      (Common Closure Principle)
        [Group what changes for same reason at same time]
        [SRP for components]
        [Minimizes releasing/testing/deployment]
@@ -97,5 +97,10 @@
        [Don't allow cycles in the dependency graph]
        [Break the cycle with interfaces]
        [Break the cycle with a new component]
+      (Stable Dependencies Principle)
+       [Depend in the derection of stability]
+      (Stable Abstractions Principle)
+       [A stable component should be abstract]
+       [The component can still be open for extension, thus follows OCP]
    (DevOps)
 ```
